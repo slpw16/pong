@@ -1,0 +1,29 @@
+body {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  border: 2px solid white;
+  background: rgb(80, 75, 75);
+}
+
+.game {
+  vertical-align: middle;
+}
+
+.score {
+  display: flex;
+  width: 90%;
+}
+
+.playerPoints {
+  font-size: 60px;
+  color: rgb(133, 127, 127);
+  margin-bottom: 30px;
+  padding-left: 330px;
+  justify-content: space-between;
+}
